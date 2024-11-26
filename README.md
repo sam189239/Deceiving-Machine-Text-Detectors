@@ -8,8 +8,6 @@ Initial exploration included a study on how the DetectGPT method works
 
 [YouTube (Report/Demo) - Part 2](https://www.youtube.com/watch?v=h8XT2ENvBl8)
 
----
-
 ## Overview
 
 With the growing adoption of Large Language Models (LLMs), there is a critical need to detect machine-generated text. Zero-shot detection methods like DetectGPT show promise but remain vulnerable to red teaming attacks. Our project:
@@ -17,8 +15,6 @@ With the growing adoption of Large Language Models (LLMs), there is a critical n
 - Introduces quality and context-preserving attack strategies.
 - Extends evaluations to other zero-shot methods like FastDetectGPT, DetectLLM and DNA-GPT.
 - Test detection performance and robustness of zero-shot methods.
-
----
 
 ## Approach
 
@@ -35,8 +31,6 @@ With the growing adoption of Large Language Models (LLMs), there is a critical n
    - Tested original and attacked samples on DetectGPT, FastDetectGPT, and DNA-GPT.
    - Measured detection performance using AUROC scores.
 
----
-
 ## Key Results
 
 - **Quality-Preserving Attacks**: Even with thresholds, attacks significantly degraded detection performance while maintaining readability.
@@ -48,14 +42,10 @@ With the growing adoption of Large Language Models (LLMs), there is a critical n
 
 For detailed AUROC scores, refer to the [report](./Documents/CSCI_544_Final_Report.pdf).
 
----
-
 ## Future Work
 - Develop universal attack methods to optimize against all detectors.
 - Explore improved metrics for text quality evaluation.
 - Test attacks across diverse domain-specific datasets.
-
----
 
 ## References
 - Zhouxing Shi et al. 2023. Red Teaming Language Model Detectors with Language Models.
