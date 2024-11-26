@@ -5,6 +5,7 @@ This repository contains the report and resources for our project: **Evading Det
 Initial exploration included a study on how the DetectGPT method works
 
 [YouTube (Report/Demo) - Part 1](https://www.youtube.com/watch?v=h8XT2ENvBl8)
+
 [YouTube (Report/Demo) - Part 2](https://www.youtube.com/watch?v=h8XT2ENvBl8)
 
 ---
