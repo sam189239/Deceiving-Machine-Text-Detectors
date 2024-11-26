@@ -36,11 +36,18 @@ With the growing adoption of Large Language Models (LLMs), there is a critical n
 - **Quality-Preserving Attacks**: Even with thresholds, attacks significantly degraded detection performance while maintaining readability.
 - **Genetic Optimization**: Achieved the largest performance drops against FastDetectGPT.
 - **AUROC Trends**:
-  - DetectGPT: Dropped from 0.73 (original) to 0.13 (genetic attack).
-  - FastDetectGPT: Dropped from 0.95 (original) to 0.32 (genetic attack).
-  - DNA-GPT: Dropped from 0.76 (original) to 0.10 (genetic attack with threshold).
+| Method        | DetectGPT | FastDetectGPT | DNA GPT  |
+|---------------|-----------|---------------|----------|
+| Original      | 0.73      | 0.9466        | 0.7582   |
+| Random        | 0.2036    | 0.3033        | 0.1435   |
+| Random - 0.2  | 0.4919    | 0.6795        | 0.3052   |
+| Random - 0.4  | 0.4315    | 0.5437        | 0.2142   |
+| Genetic       | 0.1292    | 0.3233        | 0.1754   |
+| Genetic - 0.2 | 0.53      | 0.3500        | 0.2000   |
+| Genetic - 0.4 | 0.57      | 0.2200        | 0.1000   |
 
-For detailed AUROC scores, refer to the [report](./Documents/CSCI_544_Final_Report.pdf).
+
+For more detailed inferences, refer to the [report](./Documents/CSCI_544_Final_Report.pdf).
 
 ## Future Work
 - Develop universal attack methods to optimize against all detectors.
