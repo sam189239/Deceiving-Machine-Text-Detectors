@@ -1,7 +1,11 @@
 # Evading Detection: Deceiving Machine-Text Detectors through Realistic Red Teaming Attacks
 
-This repository contains the code and resources for our project: **Evading Detection: Deceiving Machine-Text Detectors through Realistic Red Teaming Attacks**. This project explores vulnerabilities in machine-generated text detectors through realistic red teaming methods which preserve text quality.
+This repository contains the report and resources for our project: **Evading Detection: Deceiving Machine-Text Detectors through Realistic Red Teaming Attacks**. This project explores vulnerabilities in machine-generated text detectors through realistic red teaming methods which preserve text quality.
 
+Initial exploration included a study on how the DetectGPT method works
+
+[YouTube (Report/Demo) - Part 1](https://www.youtube.com/watch?v=h8XT2ENvBl8)
+[YouTube (Report/Demo) - Part 2](https://www.youtube.com/watch?v=h8XT2ENvBl8)
 ---
 
 ## Overview
@@ -40,7 +44,7 @@ With the growing adoption of Large Language Models (LLMs), there is a critical n
   - FastDetectGPT: Dropped from 0.95 (original) to 0.32 (genetic attack).
   - DNA-GPT: Dropped from 0.76 (original) to 0.10 (genetic attack with threshold).
 
-For detailed AUROC scores, refer to the [report](./CSCI_544_Final_Report.pdf).
+For detailed AUROC scores, refer to the [report](./Documents/CSCI_544_Final_Report.pdf).
 
 ---
 
