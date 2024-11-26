@@ -36,6 +36,7 @@ With the growing adoption of Large Language Models (LLMs), there is a critical n
 - **Quality-Preserving Attacks**: Even with thresholds, attacks significantly degraded detection performance while maintaining readability.
 - **Genetic Optimization**: Achieved the largest performance drops against FastDetectGPT.
 - **AUROC Trends**:
+  
 | Method        | DetectGPT | FastDetectGPT | DNA GPT  |
 |---------------|-----------|---------------|----------|
 | Original      | 0.73      | 0.9466        | 0.7582   |
